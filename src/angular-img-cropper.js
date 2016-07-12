@@ -220,7 +220,7 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
                     ctx.lineTo(this.position.x, this.position.y + (sideLength * vDirection));
                     ctx.lineTo(this.position.x, this.position.y);
                     ctx.closePath();
-                    ctx.fillStyle = 'rgba(255,255,255,1)';
+                    ctx.fillStyle = 'rgba(255,255,255,.8)';
                     ctx.fill();
                 };
                 CornerMarker.prototype.moveX = function (x) {
