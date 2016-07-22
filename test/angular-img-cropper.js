@@ -1128,7 +1128,7 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
                         }
                     };
                     ImageCropper.prototype.getDragTouchForID = function (id) {
-                        if(e.currentDragTouches){
+                        if(this.currentDragTouches){
                             for (var i = 0; i < this.currentDragTouches.length; i++) {
                                 if (id == this.currentDragTouches[i].id) {
                                     return this.currentDragTouches[i];
