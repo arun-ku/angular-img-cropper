@@ -13,7 +13,6 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
         },
         restrict: "A",
         link: function (scope, element, attrs) {
-            try{
                 var crop;
                 var __extends = __extends || function (d, b) {
                         for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -1324,9 +1323,6 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
                 scope.$watch('touchRadius', setup);
 
                 scope.$watch('image', load);
-            }catch(e){
-                console.log('Cropper not supported for mobile devices');
-            }
         }
     };
 }]);
