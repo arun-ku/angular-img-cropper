@@ -1087,7 +1087,7 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
                     ImageCropper.prototype.onTouchMove = function (e) {
                         if (crop.isImageSet()) {
                             e.preventDefault();
-                            if (e.touches.length >= 1) {
+                            if (e.touches && e.touches.length >= 1) {
                                 for (var i = 0; i < e.touches.length; i++) {
                                     var touch = e.touches[i];
                                     var touchPosition = this.getTouchPos(this.canvas, touch);
