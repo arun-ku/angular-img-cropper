@@ -60,9 +60,11 @@
       <file leaf-file-name="angular-img-cropper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/angular-img-cropper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33236152" vertical-offset="19746" max-vertical-offset="21090">
-              <caret line="1324" column="44" selection-start-line="1324" selection-start-column="44" selection-end-line="1324" selection-end-column="44" />
-              <folding />
+            <state vertical-scroll-proportion="0.5510204" vertical-offset="16836" max-vertical-offset="21150">
+              <caret line="1135" column="29" selection-start-line="1135" selection-start-column="29" selection-end-line="1135" selection-end-column="29" />
+              <folding>
+                <element signature="e#68598#68947#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -256,7 +258,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -288,7 +292,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="19927" max-vertical-offset="21090">
           <caret line="1339" column="35" selection-start-line="1339" selection-start-column="24" selection-end-line="1339" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#68598#68947#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -336,7 +342,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2307" max-vertical-offset="21090">
           <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#68598#68947#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -408,9 +416,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/angular-img-cropper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33236152" vertical-offset="19746" max-vertical-offset="21090">
-          <caret line="1324" column="44" selection-start-line="1324" selection-start-column="44" selection-end-line="1324" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="0.5510204" vertical-offset="16836" max-vertical-offset="21150">
+          <caret line="1135" column="29" selection-start-line="1135" selection-start-column="29" selection-end-line="1135" selection-end-column="29" />
+          <folding>
+            <element signature="e#68598#68947#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
