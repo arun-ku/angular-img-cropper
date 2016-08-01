@@ -387,7 +387,6 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
                             .on('touchend.angular-img-cropper', this.onTouchEnd.bind(this));
 
                         angular.element(canvas)
-                            .off('mousedown.angular-img-cropper touchstart.angular-img-cropper')
                             .on('mousedown.angular-img-cropper', this.onMouseDown.bind(this))
                             .on('touchstart.angular-img-cropper', this.onTouchStart.bind(this));
                     }
@@ -1090,7 +1089,6 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
                     };
                     ImageCropper.prototype.onTouchMove = function (e) {
                         if (crop.isImageSet()) {
-                            e.preventDefault();
                             if (e.originalEvent.touches && e.originalEvent.touches.length >= 1) {
                                 for (var i = 0; i < e.originalEvent.touches.length; i++) {
                                     var touch = e.originalEvent.touches[i];
