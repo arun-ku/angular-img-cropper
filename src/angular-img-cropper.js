@@ -381,7 +381,6 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
                         this.currentlyInteracting = false;
 
                         angular.element(window)
-                            .off('mousemove.angular-img-cropper mouseup.angular-img-cropper touchmove.angular-img-cropper touchend.angular-img-cropper')
                             .on('mousemove.angular-img-cropper', this.onMouseMove.bind(this))
                             .on('mouseup.angular-img-cropper', this.onMouseUp.bind(this))
                             .on('touchmove.angular-img-cropper', this.onTouchMove.bind(this))
